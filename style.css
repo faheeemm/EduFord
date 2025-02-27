@@ -18,6 +18,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
+    position: relative;
 }
 
 nav img {
@@ -127,9 +128,14 @@ nav .fa {
         cursor: pointer;
     }
 
+    nav .fa-bars {
+        position: absolute;
+        right: 20px;
+        top: 6px;
+    }
+
     .nav-links ul {
         padding: 30px;
-
     }
 }
 
